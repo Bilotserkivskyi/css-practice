@@ -13,6 +13,8 @@
 
   border-bottom: 1px solid;
   color: #6c757d;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
@@ -65,6 +67,9 @@
   padding: 24px 0;
 
   border-top: 1px solid #dee2e6;
+
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer_copyright {
@@ -259,6 +264,9 @@ h1 {
   padding-bottom: 12px;
   border-bottom: 1px solid #dee2e6;
   margin-bottom: 40px;
+
+  display: flex;
+  justify-content: space-between;
 }
 
 .category_button {
@@ -369,4 +377,13 @@ h1 {
 
 .link_item:hover {
   text-decoration: underline;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-item {
+  /* width: 250px; */
 }
